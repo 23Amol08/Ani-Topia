@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Top 10</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+
+</head>
+<body data-bs-theme="dark">
+    
+    <h1 class="logo Bungee my-5"> <%= animeName %> </h1>
+        
+    <div class="my-4 logo"> <img src="<%= content.images.jpg.image_url %>" class="ani-pic"> </div>
+    
+    <h2 class="logo my-4" >synopsis:</h2>
+    <div class="logo mx-5 my-5">
+    <p><%= content.synopsis %></p>
+   </div>
+    <h2 class="logo my-4">score: <%= content.score %></h2>
+    <h2 class="logo my-4">rating: <%= content.rating %></h2>
+    <h2 class="logo my-4">trailer link: </h2>
+    <a href="<%= content.trailer.url %>" > <img src="<%=content.trailer.images.image_url %>"></a> 
+   
+    <!-- 
+    img 
+    synopsis
+    score 
+    rating
+    trailer 
+    -->
+
+</body>
+</html>

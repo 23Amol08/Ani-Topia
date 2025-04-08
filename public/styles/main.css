@@ -1,0 +1,29 @@
+.Bungee {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.anime-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ani-pic{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 250px;
+    border-radius: 2%;
+}
